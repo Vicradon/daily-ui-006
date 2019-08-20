@@ -1,0 +1,119 @@
+/* red - button #fd3051
+  
+*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  background-color: #aaa;
+  padding: 10vh 0;
+}
+main {
+  border-radius: 3em;
+  background-color: #fff;
+  margin: 0 32vw;
+  padding: 0 2vw;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 5vh 0;
+}
+
+.profile-info {
+  display: flex;
+}
+.userimg {
+  flex:0 0 20%;
+}
+#img {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
+.text-stuff {
+  margin: 0 3vw;
+  width: 100%;
+}
+.profile-info-info {
+  display: flex;
+  margin:3vh 0;
+}
+.profile-info-info span {
+  display: flex;
+  flex-direction: column;
+  opacity: 0.5;
+  font-size: 0.8em;
+}
+.followers {
+  margin: 0 4vw;
+}
+.actions {
+  display: flex;
+}
+.follow {
+  flex: 0 0 10vw;
+  background-color: #fd3051;
+  color: white;
+  border: none;
+  border-radius: 2em;
+  padding: 1vh 15%;
+}
+.message {
+  margin: 0 3vw;
+  padding:1vh;
+}
+.tab {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3vh;
+  padding-bottom: 1vh;
+  
+}
+.active-tab {
+  opacity: 1;
+  font-weight: bold;
+}
+.posts-content {
+  display: flex;
+  max-width: 33%;
+}
+.posts-content img{
+  max-width: 100%;
+  height: auto;
+}
+.foodimgdiv {
+  flex:0 0 20%;
+}
+#foodimg {
+  border-radius: 5%;
+  max-width: 100%;
+  height: auto;
+}
+.article-name {
+  font-size: 1em;
+}
+.article-content {
+  padding: 2vh 0;
+}
+/* media queries */
+@media(max-width:950px){
+  main {
+    margin: 0 25vw;
+  }
+}
+@media(max-width:650px){
+  main {
+    margin: 0 15vw;
+  }
+  .text-stuff {
+    margin: 0 7vw;
+  }
+}
+@media(max-width:450px){
+  main {
+    margin: 0 3vw;
+  }
+}
